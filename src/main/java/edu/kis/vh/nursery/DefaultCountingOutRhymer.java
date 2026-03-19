@@ -2,7 +2,10 @@ package edu.kis.vh.nursery;
 
 public class DefaultCountingOutRhymer {
 
-    private int[] numbers = new int[12];
+    public static final int stala1 = 12;
+    public static final int stala2 = -1;
+    public static final int stala3 = 11;
+    private int[] numbers = new int[stala1];
 
     public int total = -1;
 
@@ -12,11 +15,11 @@ public class DefaultCountingOutRhymer {
     }
 
     public boolean callCheck() {
-        return total == -1;
+        return total == stala2;
     }
 
     public boolean isFull() {
-        return total == 11;
+        return total == stala3;
     }
 
     protected int peekaboo() {
