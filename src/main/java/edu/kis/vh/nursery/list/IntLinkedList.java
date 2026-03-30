@@ -29,14 +29,14 @@ public class IntLinkedList {
     public int top() {
         if (isEmpty())
             return EMPTY;
-        final int TOP_VALUE = last.VALUE;
+        final int TOP_VALUE = last.value;
         return TOP_VALUE;
     }
 
     public int pop() {
         if (isEmpty())
             return EMPTY;
-        final int POPPED_VALUE = last.VALUE;
+        final int POPPED_VALUE = last.value;
         last = last.prev;
         size--;
         return POPPED_VALUE;
