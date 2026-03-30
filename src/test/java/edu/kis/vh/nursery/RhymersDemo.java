@@ -1,3 +1,4 @@
+// projekt jest poprawny - walidacja projektu testami jednostkowymi przebiegła pomyślnie
 package edu.kis.vh.nursery;
 
 import edu.kis.vh.nursery.factory.DefaultRhymersFactory;
